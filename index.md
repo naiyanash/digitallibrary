@@ -18,6 +18,26 @@ Berikut ini adalah Koleksi yang dimiliki:
 13. [coba](ebook/coba.pdf) - Unknown (2025)
 
 <p><a href=webti/"halaman1.html">Halaman 1</a>|
----
+<br>
+<p><a href=webti/"halaman1.html">Halaman 2</a>|
+<br>
+<p><a href=webti/"halaman1.html">Halaman 3</a>|
+<br>
+<p><a href=webti/"halaman1.html">Halaman 4</a>|
+<br>
+<p><a href=webti/"halaman1.html">Halaman 5</a>|
+<br>
+<p><a href=webti/"halaman1.html">Halaman 6</a>|
+<br>
+<p><a href=webti/"halaman1.html">Halaman 7</a>|
+<br>
+
+
+
+
+
+
+
+
 
 Powered by GitHub Pages
