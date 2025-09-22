@@ -1,4 +1,16 @@
+<nav style="text-align:center; margin-bottom:20px;">
+  <a href="webti/halaman1.html">Halaman 1</a> |
+  <a href="webti/halaman2.html">Halaman 2</a> |
+  <a href="webti/halaman3.html">Halaman 3</a> |
+  <a href="webti/halaman4.html">Halaman 4</a> |
+  <a href="webti/halaman5.html">Halaman 5</a> |
+  <a href="webti/halaman6.html">Halaman 6</a> |
+  <a href="webti/halaman7.html">Halaman 7</a>
+</nav>
+
+
 # Selamat Datang di Perpustakaan Digital
+
 
 Berikut ini adalah Koleksi yang dimiliki:
 
@@ -17,20 +29,7 @@ Berikut ini adalah Koleksi yang dimiliki:
 12. [Tank Merah Muda](ebook/Tank%20Merah%20Muda.pdf) - Unknown (2020)
 13. [coba](ebook/coba.pdf) - Unknown (2025)
 
-<p><a href=webti/"halaman1.html">Halaman 1</a>|
-<br>
-<p><a href=webti/"halaman1.html">Halaman 2</a>|
-<br>
-<p><a href=webti/"halaman1.html">Halaman 3</a>|
-<br>
-<p><a href=webti/"halaman1.html">Halaman 4</a>|
-<br>
-<p><a href=webti/"halaman1.html">Halaman 5</a>|
-<br>
-<p><a href=webti/"halaman1.html">Halaman 6</a>|
-<br>
-<p><a href=webti/"halaman1.html">Halaman 7</a>|
-<br>
+
 
 
 
