@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot</title>
+    <title>Halaman 5 - Chatbot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
         }
         .chat-container {
             width: 300px;
@@ -48,6 +51,19 @@
     </style>
 </head>
 <body>
+    <h1>Selamat Datang</h1>
+    <hr>
+    <nav>
+        <a href="halaman1.html">Halaman 1</a> |
+        <a href="halaman2.html">Halaman 2</a> |
+        <a href="halaman3.html">Halaman 3</a> |
+        <a href="halaman4.html">Halaman 4</a> |
+        <a href="halaman5.html">Halaman 5</a> |
+        <a href="halaman6.html">Halaman 6</a> |
+        <a href="halaman7.html">Halaman 7</a>
+    </nav>
+    <hr>
+
     <div class="chat-container">
         <div class="chat-box" id="chat-box"></div>
         <div class="chat-input">
@@ -64,12 +80,10 @@
 
             if (message === "") return;
 
-            // Add user message
             const userMessage = document.createElement("div");
             userMessage.textContent = "You: " + message;
             chatBox.appendChild(userMessage);
 
-            // Simulate bot response
             setTimeout(() => {
                 const botMessage = document.createElement("div");
                 botMessage.textContent = "Bot: " + getBotResponse(message);
@@ -84,11 +98,12 @@
         function getBotResponse(input) {
             const responses = {
                 "hai": "Hai juga!",
-                "bagaimana kabarmu?": "aku baik-baik saja",
-                "siapa namamu?": "aku chat boot"
+                "bagaimana kabarmu?": "Aku baik-baik saja",
+                "siapa namamu?": "Aku chatbot sederhana"
             };
             return responses[input.toLowerCase()] || "Maaf saya tidak tau";
         }
     </script>
 </body>
 </html>
+
